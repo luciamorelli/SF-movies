@@ -227,40 +227,79 @@
              /*Section 3*/
              #main__section3{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: wrap;
                 min-height: 100vh;
                 width: 100%;
                 background-color: #86DC04;
               
             }
+            .main__section3--titulo{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                height: 10%;
+            }
 
-            .main__section3--contenedor{
+            .main__section3--informacion{
                 display: flex;
                 flex-direction: row;
-                width: 100%;
-                align-items: center;
-                margin-left: 20px;
-                margin-right: 20px;
+                height: 90%;
             }
 
-            .main__section3--contenedor--1{
+
+            .main__section3--informacion--1{
                 display: flex;
                 flex-direction: column;
-                background-color: black;
                 width: 30%;
-                height: 80%;
-                margin-right: 20px;
+                flex-wrap: wrap;
             }
-            .main__section3--contenedor--2{
+
+            .main__section3--search{
+                display: flex; 
+                width: 100%;
+                height: 10%;
+            }
+
+            .main__section3--contenedor{
+                display: flex; 
+                flex-direction: column;
+                margin-left: 20px;
+                height: 90%;
+                
+            }
+            .main__section3--contenedor nav {
+            max-height: 700px;
+            max-width: 200px;
+        
+            }
+        
+                .nav.nav-pills.flex-column{
+                    color: black;
+                    font-size: 10px;
+                    display: flow-root;
+                }
+   
+
+
+            .main__section3--informacion--2{
                 display: flex;
                 flex-direction: column;
-                background-color: white;
                 width: 70%;
-                height: 80%;
+                overflow: scroll;
+                 height: 90%;
             }
-
-
+            .info__films{
+                background-color: white;
+            }
+            .info__films p{
+                font-size: 10px;
+                color: black;
+            }
+            .info__films h6{
+                font-size: 10px;
+                color:teal;
+            }   
             /*Footer*/
 
     
